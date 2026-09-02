@@ -1,0 +1,7 @@
+services:
+  omni-workbench:
+    build: .
+    container_name: omni-workbench
+    ports:
+      - "8020:80"
+    restart: unless-stopped
